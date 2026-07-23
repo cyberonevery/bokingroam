@@ -1,0 +1,5 @@
+import { writable } from 'svelte/store';
+
+export const layoutStore = writable({
+  isSidebarOpen: false
+});
